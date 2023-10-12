@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add any additional CSS or JavaScript libraries here -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+        
+    </header>
+    
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to Patil FarmHouse</h1>
+            <p>Where Every Day is a Fresh Start.</p>
+            <a href="#signup" class="btn">Get Started</a>
+        </div>
+    </section>
+    
+    <section id="features">
+        <h2>Features</h2>
+        <div class="feature">
+            <h3>Feature 1</h3>
+            <p>Our farmhouse is situated in a picturesque, rural setting, surrounded by natural beauty and tranquility..</p>
+        </div>
+        <div class="feature">
+            <h3>Feature 2</h3>
+            <p> The property includes ample land, offering opportunities for gardens, orchards, and outdoor activities.</p>
+        </div>
+        <!-- Add more features as needed -->
+    </section>
+    
+    <section id="pricing">
+        <h2>Pricing</h2>
+        <div class="pricing-plan">
+            <h3>Basic Plan</h3>
+            <p>$9.99/month</p>
+        </div>
+        <div class="pricing-plan">
+            <h3>Premium Plan</h3>
+            <p>$19.99/month</p>
+        </div>
+        <!-- Add more pricing plans as needed -->
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to contact us:</p>
+        <form action="contact.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <style>
+                body {
+                    background-image: url('background.jpg');
+                    background-size: cover; /* Adjust to your preference */
+                    background-repeat: no-repeat; /* Prevent image repetition */
+                    background-attachment: fixed; /* Optional - keeps the image fixed while scrolling */
+                    
+                }
+            </style>
+            
+            
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Your Company</p>
+    </footer>
+</body>
+</html>
